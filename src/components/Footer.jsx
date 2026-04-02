@@ -23,11 +23,10 @@ const Footer = () => (
 
       <div className={styles.right}>
         <div className={styles.socialRow}>
-          {[
-            { icon: 'fab fa-github', label: 'GitHub', href: '#' },
-            { icon: 'fab fa-linkedin', label: 'LinkedIn', href: '#' },
-            { icon: 'fas fa-envelope', label: 'Email', href: 'mailto:bhavani525762@gmail.com' },
-            { icon: 'fab fa-twitter', label: 'Twitter', href: '#' },
+          { icon: 'fab fa-github', label: 'GitHub', href: 'https://github.com/Shankar1234566' },
+{ icon: 'fab fa-linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/dasari-bhavani-shankar/' },
+{ icon: 'fas fa-envelope', label: 'Email', href: 'mailto:bhavani525762@gmail.com' },
+{ icon: 'fas fa-code', label: 'CodeChef', href: 'https://www.codechef.com/dashboard?college-user=true' },
           ].map(s => (
             <a key={s.label} href={s.href} className={styles.social} title={s.label} data-hover>
               <i className={s.icon} />

@@ -21,9 +21,9 @@ const Contact = () => {
 
   const contacts = [
     { icon: 'fas fa-envelope', label: 'EMAIL', val: 'bhavani525762@gmail.com', color: '#E23636' },
-    { icon: 'fab fa-linkedin', label: 'LINKEDIN', val: 'linkedin.com/in/bhavani-shankar', color: '#00BFFF' },
-    { icon: 'fab fa-github', label: 'GITHUB', val: 'github.com/bhavani-shankar', color: '#9D00FF' },
-    { icon: 'fas fa-phone', label: 'PHONE', val: '+91 8186871124', color: '#00FF88' },
+{ icon: 'fab fa-linkedin', label: 'LINKEDIN', val: 'linkedin.com/in/dasari-bhavani-shankar', color: '#00BFFF' },
+{ icon: 'fab fa-github', label: 'GITHUB', val: 'github.com/Shankar1234566', color: '#9D00FF' },
+{ icon: 'fas fa-code', label: 'CODECHEF', val: 'codechef.com/dashboard', color: '#00FF88' },
   ];
 
   return (
@@ -83,7 +83,9 @@ const Contact = () => {
               { label: 'Freelance', val: 'OPEN', color: '#F5C518' },
               { label: 'Full-time', val: 'EXPLORING', color: '#00BFFF' },
             ].map(s => (
-              <div key={s.label} className={styles.statusRow}>
+             <div
+  key={c.label}
+  className={styles.contactItem}>
                 <span className={styles.statusRowLabel}>{s.label}</span>
                 <span className={styles.statusRowVal} style={{ color: s.color }}>
                   <span className={styles.statusDot} style={{ background: s.color }} />

@@ -46,8 +46,17 @@ const About = () => {
                 <div key={i} className={styles.avatarOrbit} style={{ '--oi': i }} />
               ))}
               <div className={styles.avatarInner}>
-                <div className={styles.avatarInitials}>DBS</div>
-                <div className={styles.avatarSub}>BHAVANI SHANKAR</div>
+                <img
+  src="bhavani.jpeg"
+  alt="Bhavani Shankar"
+  style={{
+    width: '110px',
+    height: '110px',
+    borderRadius: '50%',
+    objectFit: 'cover',
+    border: '2px solid rgba(0,191,255,0.5)',
+  }}
+/>
               </div>
             </div>
           </div>
