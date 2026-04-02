@@ -1,0 +1,34 @@
+.portalWrap {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(157,0,255,0.03) 50%,
+    transparent
+  );
+}
+
+.canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+}
+
+.label {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+  color: rgba(157,0,255,0.4);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
