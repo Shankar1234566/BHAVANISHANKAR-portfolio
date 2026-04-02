@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import Cursor from './components/Cursor';
 import JarvisLoader from './components/JarvisLoader';
@@ -46,6 +47,7 @@ const App = () => {
           <Footer />
         </motion.div>
       )}
+      <SpeedInsights />
     </>
   );
 };
