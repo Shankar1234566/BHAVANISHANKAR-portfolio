@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 
 import Cursor from './components/Cursor';
 import JarvisLoader from './components/JarvisLoader';
@@ -19,6 +20,7 @@ const App = () => {
   return (
     <>
       <Cursor />
+      <Analytics />
 
       <AnimatePresence>
         {!loaded && (

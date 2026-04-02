@@ -7,12 +7,12 @@
     "dev": "vite",
     "build": "npx vite build",
     "preview": "npx vite preview"
-},
-  
+  },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "framer-motion": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "framer-motion": "^11.0.0",
     "react-intersection-observer": "^9.8.0",
     "react-scroll": "^1.9.0"
   },
